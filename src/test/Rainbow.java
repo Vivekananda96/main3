@@ -1,12 +1,14 @@
 package test;
+
 import java.io.*;
 import java.util.*;
+
 public class Rainbow {
-    int a=5;
+    int a = 5;
 
     int ChangeTheHueoftheColor(int b) {
-     int  c = a + b;
-     return c;
+        int c = a + b;
+        return c;
     }
 
     public static void main(String[] args) {
